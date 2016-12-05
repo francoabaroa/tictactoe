@@ -9,25 +9,28 @@
   <h1> Frank's TicTacToe </h1>
   <p> WELCOME </p>
 
-  <table border='1'>
-  <tr>
-  <td onclick="prompt('X or O?');">  </td>
-  <td></td>
-  <td></td>
-  </tr>
-  <tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  </tr>
-  <tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  </tr>
-  </table>
+  <div ng-controller='mainCtrl' class='container'>
+    <table border='1'>
+    <tr>
+    <td ng-click='test1()'> {{input1}} </td>
+    <td ng-click='test2()'> {{input2}} </td>
+    <td ng-click='test3()'> {{input3}} </td>
+    </tr>
+    <tr>
+    <td ng-click='test4()'> {{input4}} </td>
+    <td ng-click='test5()'> {{input5}} </td>
+    <td ng-click='test6()'> {{input6}} </td>
+    </tr>
+    <tr>
+    <td ng-click='test7()'> {{input7}} </td>
+    <td ng-click='test8()'> {{input8}} </td>
+    <td ng-click='test9()'> {{input9}} </td>
+    </tr>
+    </table>
+  </div>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="app/app.js"></script>
 </body>
 </html>
