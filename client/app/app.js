@@ -1,14 +1,17 @@
 angular.module('ttt', [])
   .controller('mainCtrl', function ($scope) {
-    $scope.input1 = '';
-    $scope.input2 = '';
-    $scope.input3 = '';
-    $scope.input4 = '';
-    $scope.input5 = '';
-    $scope.input6 = '';
-    $scope.input7 = '';
-    $scope.input8 = '';
-    $scope.input9 = '';
+    $scope.input1 = 'click me';
+    $scope.input2 = 'click me';
+    $scope.input3 = 'click me';
+    $scope.input4 = 'click me';
+    $scope.input5 = 'click me';
+    $scope.input6 = 'click me';
+    $scope.input7 = 'click me';
+    $scope.input8 = 'click me';
+    $scope.input9 = 'click me';
+
+    $scope.results = [];
+
 
     $scope.test1 = function () {
       $scope.input1 = prompt('X or O?');

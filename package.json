@@ -4,5 +4,8 @@
   "description": "tic tac toe for humans",
   "author": "Franco <franco9395@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "karma": "^1.3.0"
+  }
 }
