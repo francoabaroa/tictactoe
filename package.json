@@ -1,0 +1,8 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "tic tac toe for humans",
+  "author": "Franco <franco9395@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
