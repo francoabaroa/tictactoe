@@ -1,0 +1,11 @@
+body {
+  font-size: 40px !important;
+  color: red !important;
+}
+
+table {
+  border: 3px black solid;
+  font-size: 50px;
+  width: 300px;
+  height: 300px;
+}
